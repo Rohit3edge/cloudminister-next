@@ -1,6 +1,4 @@
-import { useState } from "react";
-import VideoModal from "../common/others/VideoModal";
-import { useNavigate,Link } from "react-router-dom";
+import Link from "next/link";
 
 const features = [
   {
@@ -118,8 +116,6 @@ const features = [
   },
 ];
 const CpanelHostingFeature = () => {
-  const [isOpen, setOpen] = useState(false);
-  const navigate = useNavigate();
   return (
     <>
       <section className=" position-relative z-1 overflow-hidden ">
@@ -167,7 +163,7 @@ const CpanelHostingFeature = () => {
                               />
                             </div>
                             <Link
-                            href={feature.href}
+                            href={feature.href || "#"}
                               className="mb-5 fs-20 fw-medium d-block text-decoration-none text-center"
                               // onClick={() => navigate()}
                               style={{ cursor: "pointer",color:"#000" }}

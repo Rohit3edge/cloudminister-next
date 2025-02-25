@@ -202,7 +202,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <a href="https://cloudminister.com/blog/" className="text-decoration-none footer-2-link fs-14" target="_blank">
+                  <a href="https://cloudminister.com/blog" className="text-decoration-none footer-2-link fs-14" target="_blank" rel="noopener noreferrer">
                     Blog
                   </a>
                 </li>

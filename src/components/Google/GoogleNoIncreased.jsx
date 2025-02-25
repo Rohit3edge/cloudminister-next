@@ -15,7 +15,7 @@ const CpanelNoIncreased = () => {
                 data-sal-easing="ease-in-out-sine"
               >
                 <img
-                  src="/server-managemnt-middle-image/google-cloud/-Server.png"
+                  src="/server-managemnt-middle-image/google-cloud-Server.png"
                   alt="Google Cloud Server"
                   className="img-fluid"
                 />

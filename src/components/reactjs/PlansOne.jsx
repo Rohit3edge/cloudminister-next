@@ -1,3 +1,4 @@
+"use client";
 import React, { useContext,useState } from "react";
 import { CurrencyContext } from "../currencyconversion/Currencyconversion";
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';

@@ -1,7 +1,7 @@
-import { useNavigate } from "react-router-dom";
+import { useRouter } from "next/router";
 
 const ServerManagementBrifeing = () => {
-  const navigate=useNavigate()
+  const navigate=useRouter()
   const serverManagementData = [
     {
       href: "/cpanel-servers",
@@ -92,7 +92,7 @@ const ServerManagementBrifeing = () => {
                           alt={item.imgAlt}
                           className="img-fluid w-12"
                         />
-                        <h6 onClick={()=>navigate(item.href)} className="fs-16 fw-bold mt-4" style={{cursor:"pointer"}} >{item.title}</h6>
+                        <h6 onClick={()=>navigate(item.href || "#")} className="fs-16 fw-bold mt-4" style={{cursor:"pointer"}} >{item.title}</h6>
                       </div>
                     </div>
                   ))}

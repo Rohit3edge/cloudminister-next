@@ -41,7 +41,7 @@ const JobOpenings = () => {
           </tr>
         </thead>
         <tbody>
-          {jobs.map((job, index) => (
+          {jobs?.map((job, index) => (
             <tr key={index}>
               <td>
                 <strong>{job.postName}</strong>

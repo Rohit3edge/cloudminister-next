@@ -1,4 +1,4 @@
-// faqData.js
+"use client";
  const faqData = [
     {
       id: 'faq-collapseOneA',
@@ -27,37 +27,37 @@
         "Linux VPS hosting offers stability, security, and flexibility with dedicated resources. It supports distributions like Ubuntu and CentOS, making it a cost-effective choice for developers and businesses seeking reliable hosting.",
     },
     {
-      id: 'faq-collapse4A',
+      id: 'faq-collapse5A',
       question: "What is the cost of Linux VPS Hosting?",
       answer:
         "The pricing varies based on the plan you select as well as depending uopn the business needs. Please visit our pricing page for detailed information.",
     },
     {
-      id: 'faq-collapse4A',
+      id: 'faq-collapse6A',
       question: "Do you offer managed or unmanaged Linux VPS Hosting?",
       answer:
         "Cloudminister provides both managed and unmanaged hosting plans to meet your specific needs.",
     },
     {
-      id: 'faq-collapse4A',
+      id: 'faq-collapse7A',
       question: "How secure is VPS hosting in India?",
       answer:
         "VPS hosting in India offers a high level of security, as it operates independently from other users on the server. You have full control over firewall settings, backups, and software configurations, allowing you to create a secure environment for your website or application.",
     },
     {
-      id: 'faq-collapse4A',
+      id: 'faq-collapse8A',
       question: "How do I manage my cheap Indian VPS hosting server?",
       answer:
         "Managing a cheap Indian VPS hosting server is simple with various control panels available, like cPanel, Plesk, or SSH access for those with technical expertise. Your hosting provider may also offer managed services, so you can focus on running your business while they handle the server maintenance.",
     },
     {
-      id: 'faq-collapse4A',
+      id: 'faq-collapse9A',
       question: "What are the benefits of choosing the cheapest VPS Linux hosting in India?",
       answer:
         "Choosing the cheapest VPS Linux hosting in India allows you to leverage the flexibility and power of Linux at an affordable price. It’s ideal for developers and tech-savvy users who need a reliable and customizable server, without breaking the bank. Plus, hosting within India ensures better latency and faster load times for your audience.",
     },
     {
-      id: 'faq-collapse4A',
+      id: 'faq-collapse10A',
       question: "What are the benefits of choosing the cheapest VPS Linux hosting in India?",
       answer:
         "Choosing the cheapest VPS Linux hosting in India allows you to leverage the flexibility and power of Linux at an affordable price. It’s ideal for developers and tech-savvy users who need a reliable and customizable server, without breaking the bank. Plus, hosting within India ensures better latency and faster load times for your audience.",

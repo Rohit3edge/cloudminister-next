@@ -1,4 +1,4 @@
-import { Link, useNavigate } from 'react-router-dom';
+import Link from "next/link";
 const AboutUsStory = () => {
 
   const serverManagementData = [

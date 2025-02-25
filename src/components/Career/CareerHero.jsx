@@ -64,7 +64,7 @@ const CareerPage = () => {
       >
         {/* Carousel Indicators */}
         <div className="carousel-indicators">
-          {carouselData.map((item, index) => (
+          {carouselData?.map((item, index) => (
             <button
               key={item.id}
               type="button"

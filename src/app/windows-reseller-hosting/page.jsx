@@ -11,8 +11,47 @@ import ResellerHostingSayHello from "@/components/windowsresellerHosting/Reselle
 import DataHostingDatacenterSupport from "@/components/dataCenter/CloudHostingDatacenterLocation";
 import WindowsOptions from "@/components/common/Panel/WindowsOptions";
 
-const WindowsResellerHosting = () => {
+export const metadata = {
+  title:
+    "Affordable Windows Reseller Hosting | Start Your Hosting Business with CloudMinister",
+  description:
+    "CloudMinister offers reliable and scalable Windows Reseller Hosting with Plesk control panel, secure servers, and competitive pricing. Launch your business today!",
+  // keywords: [
+  //   "Amazon Cloud Hosting",
+  //   "Best Cloud Hosting",
+  //   "Secure Web Hosting",
+  //   "Fast Website Hosting",
+  //   "Cloud Data Solutions",
+  //   "Amazon CDN",
+  // ],
+  openGraph: {
+    title:
+      "Affordable Windows Reseller Hosting | Start Your Hosting Business with CloudMinister",
+    description:
+      "CloudMinister offers reliable and scalable Windows Reseller Hosting with Plesk control panel, secure servers, and competitive pricing. Launch your business today!",
+    url: "https://cloudminister.com/windows-reseller-hosting/",
+    siteName: "cloudminister",
+    // images: [
+    //   {
+    //     url: "https://yourwebsite.com/images/akamicloud-banner.jpg",
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "Akamai Cloud Hosting Banner",
+    //   },
+    // ],
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Akamai Cloud Hosting - Secure & Fast Web Hosting",
+  //   description:
+  //     "Experience secure, fast, and reliable cloud hosting with Akamai. Try it risk-free for 7 days!",
+  //   images: ["https://yourwebsite.com/images/akamicloud-banner.jpg"],
+  // },
+  robots: "index, follow",
+};
 
+const WindowsResellerHosting = () => {
   return (
     <>
       <ResellerHostingHero />

@@ -12,9 +12,47 @@ import SharedHostingPrice from "@/components/dedicatedlinuxhosting/SharedHosting
 import DataHostingDatacenterSupport from "@/components/dataCenter/CloudHostingDatacenterLocation";
 import LinuxOptions from "@/components/common/Panel/LinuxOptions";
 
-const LinuxDedicated = () => {
- 
+export const metadata = {
+  title:
+    "Linux Dedicated Server Hosting in India with Full Root Access |  CloudMinister",
+  description:
+    "Get powerful and reliable Linux Dedicated Servers from CloudMinister with full root access, high-speed performance, and 24/7 expert support. Ideal for businesses needing scalability and security.",
+  // keywords: [
+  //   "Amazon Cloud Hosting",
+  //   "Best Cloud Hosting",
+  //   "Secure Web Hosting",
+  //   "Fast Website Hosting",
+  //   "Cloud Data Solutions",
+  //   "Amazon CDN",
+  // ],
+  openGraph: {
+    title:
+      "Linux Dedicated Server Hosting in India with Full Root Access |  CloudMinister",
+    description:
+      "Get powerful and reliable Linux Dedicated Servers from CloudMinister with full root access, high-speed performance, and 24/7 expert support. Ideal for businesses needing scalability and security.",
+    url: "https://cloudminister.com/linux-dedicated-server/",
+    siteName: "cloudminister",
+    // images: [
+    //   {
+    //     url: "https://yourwebsite.com/images/akamicloud-banner.jpg",
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "Akamai Cloud Hosting Banner",
+    //   },
+    // ],
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Akamai Cloud Hosting - Secure & Fast Web Hosting",
+  //   description:
+  //     "Experience secure, fast, and reliable cloud hosting with Akamai. Try it risk-free for 7 days!",
+  //   images: ["https://yourwebsite.com/images/akamicloud-banner.jpg"],
+  // },
+  robots: "index, follow",
+};
 
+const LinuxDedicated = () => {
   return (
     <>
       <SharedHostingHero />

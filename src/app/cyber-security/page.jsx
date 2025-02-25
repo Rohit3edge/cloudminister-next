@@ -10,8 +10,47 @@ import Newfaq from "@/components/CyberSecurity/faq";
 import FooterCta from "@/components/common/cta/FooterCtatwo.jsx";
 import DataCenterFeedback from "@/components/dataCenter/DataCenterFeedback";
 
-function CyberSecurity() {
+export const metadata = {
+  title:
+    "Enterprise-Grade Cybersecurity Solutions Provider | Protect Your Business with CloudMinister",
+  description:
+    "Leverage the power of AI to detect, prevent, and mitigate cyber threats. CloudMinister delivers cutting-edge cybersecurity solutions for modern businesses.",
+  // keywords: [
+  //   "Amazon Cloud Hosting",
+  //   "Best Cloud Hosting",
+  //   "Secure Web Hosting",
+  //   "Fast Website Hosting",
+  //   "Cloud Data Solutions",
+  //   "Amazon CDN",
+  // ],
+  openGraph: {
+    title:
+      "Enterprise-Grade Cybersecurity Solutions Provider | Protect Your Business with CloudMinister",
+    description:
+      "Leverage the power of AI to detect, prevent, and mitigate cyber threats. CloudMinister delivers cutting-edge cybersecurity solutions for modern businesses.",
+    url: "https://cloudminister.com/cyber-security/",
+    siteName: "cloudminister",
+    // images: [
+    //   {
+    //     url: "https://yourwebsite.com/images/akamicloud-banner.jpg",
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "Akamai Cloud Hosting Banner",
+    //   },
+    // ],
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Akamai Cloud Hosting - Secure & Fast Web Hosting",
+  //   description:
+  //     "Experience secure, fast, and reliable cloud hosting with Akamai. Try it risk-free for 7 days!",
+  //   images: ["https://yourwebsite.com/images/akamicloud-banner.jpg"],
+  // },
+  robots: "index, follow",
+};
 
+function CyberSecurity() {
   return (
     <>
       <CyberHero />
@@ -35,7 +74,11 @@ function CyberSecurity() {
       <DataHostingDatacenterSupport />
       <DataCenterFeedback />
       <Newfaq />
-  <FooterCta firsttital={"Book A Free Consultation Today."} path={"/contact/"}  text={"Contact now"}/>
+      <FooterCta
+        firsttital={"Book A Free Consultation Today."}
+        path={"/contact/"}
+        text={"Contact now"}
+      />
     </>
   );
 }

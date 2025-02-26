@@ -1,4 +1,3 @@
-"use client";
 import FooterCta from "@/components/common/cta/FooterCta";
 import WhyBuyDomainHostingard from "@/components/MainSharedHosting/WhyBuyDomainHostingard";
 import DataCenterCustomerBrands from "@/components/dataCenter/DataCenterCustomerBrands";

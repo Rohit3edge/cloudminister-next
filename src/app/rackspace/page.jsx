@@ -11,7 +11,45 @@ import DataHostingDatacenterSupport from "@/components/dataCenter/CloudHostingDa
 import WhyChoose from "@/components/RackSpace/WhyChoose";
 import RackspaceNoIncreased from "@/components/RackSpace/RackspaceNoIncreased";
 import HostingOptions from "@/components/CpanelHostingNew/HostingOptions";
-
+export const metadata =  {
+  title:
+    "Professional Rackspace Server Management Services | CloudMinister",
+  description:
+    "Simplify your Rackspace server performance with expert management by CloudMinister. Enjoy uptime assurance, regular updates, and 24/7 support.",
+  // keywords: [
+  //   "Amazon Cloud Hosting",
+  //   "Best Cloud Hosting",
+  //   "Secure Web Hosting",
+  //   "Fast Website Hosting",
+  //   "Cloud Data Solutions",
+  //   "Amazon CDN",
+  // ],
+  openGraph: {
+    title:
+      "Professional Rackspace Server Management Services | CloudMinister",
+    description:
+      "Simplify your Rackspace server performance with expert management by CloudMinister. Enjoy uptime assurance, regular updates, and 24/7 support.",
+    url: "https://cloudminister.com/rackspace/",
+    siteName: "cloudminister",
+    // images: [
+    //   {
+    //     url: "https://yourwebsite.com/images/akamicloud-banner.jpg",
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "Akamai Cloud Hosting Banner",
+    //   },
+    // ],
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Akamai Cloud Hosting - Secure & Fast Web Hosting",
+  //   description:
+  //     "Experience secure, fast, and reliable cloud hosting with Akamai. Try it risk-free for 7 days!",
+  //   images: ["https://yourwebsite.com/images/akamicloud-banner.jpg"],
+  // },
+  robots: "index, follow",
+}
 const Rackspace = () => {
 
   return (

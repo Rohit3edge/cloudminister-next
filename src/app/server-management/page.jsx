@@ -10,6 +10,45 @@ import WhyChoose from '@/components/ServerManagement/WhyChoose';
 import DataCenterBrands from '@/components/dataCenter/DataCenterBrands';
 import CpanelHostingFeature from '@/components/ServerManagement/CpanelHostingFeature';
 
+export const metadata = {
+  title:
+    "Professional Server Management Services by Industry Experts | Cloud Minister",
+  description:
+    "Optimize your server performance & Security with Cloud Minister’s professional server management services. Outsourced Hosting Support, and management for 24/7 monitoring, security, and maintenance by experts.",
+  // keywords: [
+  //   "Amazon Cloud Hosting",
+  //   "Best Cloud Hosting",
+  //   "Secure Web Hosting",
+  //   "Fast Website Hosting",
+  //   "Cloud Data Solutions",
+  //   "Amazon CDN",
+  // ],
+  openGraph: {
+    title:
+      "Professional Server Management Services by Industry Experts | Cloud Minister",
+    description:
+      "Optimize your server performance & Security with Cloud Minister’s professional server management services. Outsourced Hosting Support, and management for 24/7 monitoring, security, and maintenance by experts.",
+    url: "https://cloudminister.com/server-management/",
+    siteName: "cloudminister",
+    // images: [
+    //   {
+    //     url: "https://yourwebsite.com/images/akamicloud-banner.jpg",
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "Akamai Cloud Hosting Banner",
+    //   },
+    // ],
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Akamai Cloud Hosting - Secure & Fast Web Hosting",
+  //   description:
+  //     "Experience secure, fast, and reliable cloud hosting with Akamai. Try it risk-free for 7 days!",
+  //   images: ["https://yourwebsite.com/images/akamicloud-banner.jpg"],
+  // },
+  robots: "index, follow",
+};
 const ServerManagement = () => {
   return (
     <>

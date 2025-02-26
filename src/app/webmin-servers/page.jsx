@@ -11,7 +11,45 @@ import DataHostingDatacenterSupport from '@/components/dataCenter/CloudHostingDa
 import WhyChoose from '@/components/webminservers/WhyChoose';
 import WebminserversNoIncreased from '@/components/webminservers/WebminserversNoIncreased';
 import HostingOptions from '@/components/CpanelHostingNew/HostingOptions';
-
+export const metadata =  {
+  title:
+    "Affordable Webmin Server Management Services | CloudMinister",
+  description:
+    "Let CloudMinister handle your Webmin servers with 24/7 expert support, proactive monitoring, and performance optimization for worry-free management.",
+  // keywords: [
+  //   "Amazon Cloud Hosting",
+  //   "Best Cloud Hosting",
+  //   "Secure Web Hosting",
+  //   "Fast Website Hosting",
+  //   "Cloud Data Solutions",
+  //   "Amazon CDN",
+  // ],
+  openGraph: {
+    title:
+      "Affordable Webmin Server Management Services | CloudMinister",
+    description:
+      "Let CloudMinister handle your Webmin servers with 24/7 expert support, proactive monitoring, and performance optimization for worry-free management.",
+    url: "https://cloudminister.com/webmin-servers/",
+    siteName: "cloudminister",
+    // images: [
+    //   {
+    //     url: "https://yourwebsite.com/images/akamicloud-banner.jpg",
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "Akamai Cloud Hosting Banner",
+    //   },
+    // ],
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Akamai Cloud Hosting - Secure & Fast Web Hosting",
+  //   description:
+  //     "Experience secure, fast, and reliable cloud hosting with Akamai. Try it risk-free for 7 days!",
+  //   images: ["https://yourwebsite.com/images/akamicloud-banner.jpg"],
+  // },
+  robots: "index, follow",
+}
 const Webminservers = () => {
   return (
     <>

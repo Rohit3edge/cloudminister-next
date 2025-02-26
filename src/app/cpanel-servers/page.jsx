@@ -11,7 +11,45 @@ import DataHostingDatacenterSupport from '@/components/dataCenter/CloudHostingDa
 import HostingOptions from '@/components/CpanelHostingNew/HostingOptions';
 import WhyChoose from '@/components/CpanelHostingNew/WhyChoose';
 import DataCenterBrands from '@/components/dataCenter/DataCenterBrands';
-
+export const metadata ={
+  title:
+    "Affordable cPanel Server Management Services | 24x7 Server Management",
+  description:
+    "Streamline your hosting with professional cPanel server management services. Enjoy round-the-clock monitoring, updates, and server optimization.",
+  // keywords: [
+  //   "Amazon Cloud Hosting",
+  //   "Best Cloud Hosting",
+  //   "Secure Web Hosting",
+  //   "Fast Website Hosting",
+  //   "Cloud Data Solutions",
+  //   "Amazon CDN",
+  // ],
+  openGraph: {
+    title:
+      "Affordable cPanel Server Management Services | 24x7 Server Management",
+    description:
+      "Streamline your hosting with professional cPanel server management services. Enjoy round-the-clock monitoring, updates, and server optimization.",
+    url: "https://cloudminister.com/cpanel-servers/",
+    siteName: "cloudminister",
+    // images: [
+    //   {
+    //     url: "https://yourwebsite.com/images/akamicloud-banner.jpg",
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "Akamai Cloud Hosting Banner",
+    //   },
+    // ],
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Akamai Cloud Hosting - Secure & Fast Web Hosting",
+  //   description:
+  //     "Experience secure, fast, and reliable cloud hosting with Akamai. Try it risk-free for 7 days!",
+  //   images: ["https://yourwebsite.com/images/akamicloud-banner.jpg"],
+  // },
+  robots: "index, follow",
+}
 const CpanelHosting = () => {
 
   return (

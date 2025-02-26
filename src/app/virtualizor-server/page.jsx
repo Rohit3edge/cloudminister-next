@@ -12,7 +12,45 @@ import VirtualizorNoIncreased from '@/components/VirtualizorSupport/VirtualizorN
 import WhyChoose from '@/components/VirtualizorSupport/WhyChoose';
 import HostingOptions from '@/components/CpanelHostingNew/HostingOptions';
 
-
+export const metadata = {
+  title:
+    "Expert Virtualizor Server Management Services | Proactive 24/7 Technical Support",
+  description:
+    "Optimize your Virtualizor hosting with CloudMinister’s expert management services. Benefit from uptime assurance, security, and proactive monitoring.",
+  // keywords: [
+  //   "Amazon Cloud Hosting",
+  //   "Best Cloud Hosting",
+  //   "Secure Web Hosting",
+  //   "Fast Website Hosting",
+  //   "Cloud Data Solutions",
+  //   "Amazon CDN",
+  // ],
+  openGraph: {
+    title:
+      "Expert Virtualizor Server Management Services | Proactive 24/7 Technical Support",
+    description:
+      "Optimize your Virtualizor hosting with CloudMinister’s expert management services. Benefit from uptime assurance, security, and proactive monitoring.",
+    url: "https://cloudminister.com/virtualizor-server/",
+    siteName: "cloudminister",
+    // images: [
+    //   {
+    //     url: "https://yourwebsite.com/images/akamicloud-banner.jpg",
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "Akamai Cloud Hosting Banner",
+    //   },
+    // ],
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Akamai Cloud Hosting - Secure & Fast Web Hosting",
+  //   description:
+  //     "Experience secure, fast, and reliable cloud hosting with Akamai. Try it risk-free for 7 days!",
+  //   images: ["https://yourwebsite.com/images/akamicloud-banner.jpg"],
+  // },
+  robots: "index, follow",
+}
 const VirtualizorSupport = () => {
 
   return (

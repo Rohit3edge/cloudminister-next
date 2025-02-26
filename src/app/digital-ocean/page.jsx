@@ -12,7 +12,45 @@ import WhyChoose from "@/components/Ocean/WhyChoose";
 import HostingOptions from "@/components/CpanelHostingNew/HostingOptions";
 import DataCenterBrands from "@/components/dataCenter/DataCenterBrands";
 
-
+export const metadata = {
+  title:
+    "Affordable DigitalOcean Server Management Services | CloudMinister",
+  description:
+    "Optimize your business infrastructure with CloudMinister’s DigitalOcean server management. Scalable, reliable, and secure solutions tailored to your needs.",
+  // keywords: [
+  //   "Amazon Cloud Hosting",
+  //   "Best Cloud Hosting",
+  //   "Secure Web Hosting",
+  //   "Fast Website Hosting",
+  //   "Cloud Data Solutions",
+  //   "Amazon CDN",
+  // ],
+  openGraph: {
+    title:
+      "Affordable DigitalOcean Server Management Services | CloudMinister",
+    description:
+      "Optimize your business infrastructure with CloudMinister’s DigitalOcean server management. Scalable, reliable, and secure solutions tailored to your needs.",
+    url: "https://cloudminister.com/digital-ocean/",
+    siteName: "cloudminister",
+    // images: [
+    //   {
+    //     url: "https://yourwebsite.com/images/akamicloud-banner.jpg",
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "Akamai Cloud Hosting Banner",
+    //   },
+    // ],
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Akamai Cloud Hosting - Secure & Fast Web Hosting",
+  //   description:
+  //     "Experience secure, fast, and reliable cloud hosting with Akamai. Try it risk-free for 7 days!",
+  //   images: ["https://yourwebsite.com/images/akamicloud-banner.jpg"],
+  // },
+  robots: "index, follow",
+}
 const Ocean = () => {
 
 

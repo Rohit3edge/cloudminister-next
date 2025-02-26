@@ -11,7 +11,45 @@ import DataHostingDatacenterSupport from '@/components/dataCenter/CloudHostingDa
 import WhyChoose from '@/components/PleskSupport/WhyChoose';
 import PleskNoIncreased from '@/components/PleskSupport/PleskNoIncreased';
 import HostingOptions from '@/components/CpanelHostingNew/HostingOptions';
-
+export const metadata = {
+  title:
+    "Plesk Server Management Services | 24/7 Server Support by Experts",
+  description:
+    "Get cost-effective and reliable Plesk Server Management. From server optimization to troubleshooting, we ensure your hosting runs smoothly.",
+  // keywords: [
+  //   "Amazon Cloud Hosting",
+  //   "Best Cloud Hosting",
+  //   "Secure Web Hosting",
+  //   "Fast Website Hosting",
+  //   "Cloud Data Solutions",
+  //   "Amazon CDN",
+  // ],
+  openGraph: {
+    title:
+      "Plesk Server Management Services | 24/7 Server Support by Experts",
+    description:
+      "Get cost-effective and reliable Plesk Server Management. From server optimization to troubleshooting, we ensure your hosting runs smoothly.",
+    url: "https://cloudminister.com/plesk-servers/",
+    siteName: "cloudminister",
+    // images: [
+    //   {
+    //     url: "https://yourwebsite.com/images/akamicloud-banner.jpg",
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "Akamai Cloud Hosting Banner",
+    //   },
+    // ],
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Akamai Cloud Hosting - Secure & Fast Web Hosting",
+  //   description:
+  //     "Experience secure, fast, and reliable cloud hosting with Akamai. Try it risk-free for 7 days!",
+  //   images: ["https://yourwebsite.com/images/akamicloud-banner.jpg"],
+  // },
+  robots: "index, follow",
+}
 
 const PleskSupport = () => {
 

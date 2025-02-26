@@ -11,7 +11,45 @@ import DataHostingDatacenterSupport from "@/components/dataCenter/CloudHostingDa
 import DataCenterBrands from "@/components/dataCenter/DataCenterBrands";
 import WhyChoose from "@/components/Aws/WhyChoose";
 import HostingOptions from "@/components/CpanelHostingNew/HostingOptions";
-
+export const metadata = {
+  title:
+    "Maximize Performance with AWS Server Management | CloudMinister",
+  description:
+    "Affordable AWS Server Management Services. Optimize your AWS infrastructure with cost-effective management solutions by CloudMinister. Save time and resources while ensuring top-tier performance.",
+  // keywords: [
+  //   "Amazon Cloud Hosting",
+  //   "Best Cloud Hosting",
+  //   "Secure Web Hosting",
+  //   "Fast Website Hosting",
+  //   "Cloud Data Solutions",
+  //   "Amazon CDN",
+  // ],
+  openGraph: {
+    title:
+      "Maximize Performance with AWS Server Management | CloudMinister",
+    description:
+      "Affordable AWS Server Management Services. Optimize your AWS infrastructure with cost-effective management solutions by CloudMinister. Save time and resources while ensuring top-tier performance.",
+    url: "https://cloudminister.com/aws-support/",
+    siteName: "cloudminister",
+    // images: [
+    //   {
+    //     url: "https://yourwebsite.com/images/akamicloud-banner.jpg",
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "Akamai Cloud Hosting Banner",
+    //   },
+    // ],
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Akamai Cloud Hosting - Secure & Fast Web Hosting",
+  //   description:
+  //     "Experience secure, fast, and reliable cloud hosting with Akamai. Try it risk-free for 7 days!",
+  //   images: ["https://yourwebsite.com/images/akamicloud-banner.jpg"],
+  // },
+  robots: "index, follow",
+}
 
 const AWS = () => {
 

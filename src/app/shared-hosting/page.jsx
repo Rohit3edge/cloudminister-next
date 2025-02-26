@@ -1,4 +1,3 @@
-"use client";
 import FooterCta from "@/components/common/cta/FooterCta";
 import WhyBuyDomainHostingard from "@/components/MainSharedHosting/WhyBuyDomainHostingard";
 import DataCenterCustomerBrands from "@/components/dataCenter/DataCenterCustomerBrands";
@@ -12,45 +11,7 @@ import SharedHostingHero from "@/components/MainSharedHosting/SharedHostingHero"
 import SharedHostingPrice from "@/components/MainSharedHosting/SharedHostingPrice";
 import DataHostingDatacenterSupport from "@/components/dataCenter/CloudHostingDatacenterLocation";
 
-export const metadata = {
-  title:
-    "Affordable Shared Hosting Plans in India with SSD Storage | CloudMinister",
-  description:
-    "Get reliable and affordable shared hosting with CloudMinister. Enjoy free SSL, unlimited bandwidth, 99.9% uptime, and 24/7 expert support for your website.",
-  // keywords: [
-  //   "Amazon Cloud Hosting",
-  //   "Best Cloud Hosting",
-  //   "Secure Web Hosting",
-  //   "Fast Website Hosting",
-  //   "Cloud Data Solutions",
-  //   "Amazon CDN",
-  // ],
-  openGraph: {
-    title:
-      "Affordable Shared Hosting Plans in India with SSD Storage | CloudMinister",
-    description:
-      "Get reliable and affordable shared hosting with CloudMinister. Enjoy free SSL, unlimited bandwidth, 99.9% uptime, and 24/7 expert support for your website.",
-    url: "https://cloudminister.com/shared-hosting/",
-    siteName: "cloudminister",
-    // images: [
-    //   {
-    //     url: "https://yourwebsite.com/images/akamicloud-banner.jpg",
-    //     width: 1200,
-    //     height: 630,
-    //     alt: "Akamai Cloud Hosting Banner",
-    //   },
-    // ],
-    type: "website",
-  },
-  // twitter: {
-  //   card: "summary_large_image",
-  //   title: "Akamai Cloud Hosting - Secure & Fast Web Hosting",
-  //   description:
-  //     "Experience secure, fast, and reliable cloud hosting with Akamai. Try it risk-free for 7 days!",
-  //   images: ["https://yourwebsite.com/images/akamicloud-banner.jpg"],
-  // },
-  robots: "index, follow",
-};
+
 
 const MainSharedHosting = () => {
   return (

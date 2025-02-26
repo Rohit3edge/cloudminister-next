@@ -29,18 +29,18 @@ const VpsHostingHero = () => {
               >
                 <a
                   href="https://manage.cloudminister.com/store/cloud-vps-india-new/cloud-vps-in-4"
+                  target="_blank"
                   className="btn btn-primary btn-arrow btn-arrow btn-arrow-md btn-lg fs-14 fw-medium rounded"
                 >
-                  <a
-                    href="https://manage.cloudminister.com/store/linux-shared-hosting//startup-shared-hosting"
-                    target="_blank"
+                  <span
+                    
                     className="btn-arrow__text text-white text-decoration-none"
                   >
                     Get Started
                     <span className="btn-arrow__icon">
                       <i className="las la-arrow-right"></i>
                     </span>
-                  </a>
+                  </span>
                 </a>
                 <h4 className="text-white mb-0">
                   {currency === "INR" ? "₹" : "$"} {convert(1800.00, "INR", currency)}

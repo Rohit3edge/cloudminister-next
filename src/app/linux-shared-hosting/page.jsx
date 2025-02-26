@@ -66,7 +66,7 @@ const SharedHosting = () => {
           </div>
         </div>
       </section>
-      {/* <SharedHostingPrice/> */}
+      <SharedHostingPrice/>
       <SharedHostingFeature />
       <LinuxOptions />
       <SharedHostingAdvanceFeature />

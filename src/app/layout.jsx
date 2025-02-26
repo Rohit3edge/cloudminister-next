@@ -4,6 +4,7 @@ import { Providers } from "./providers";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./globals.css";
+import "../../public/assets/css/vendors/swiper-bundle.min.css";
 import "line-awesome/dist/line-awesome/css/line-awesome.min.css";
 import Navbar from "@/components/common/nav/Navbar";
 import Footer from "@/components/common/nav/Footer";
@@ -33,7 +34,10 @@ export default function RootLayout({ children }) {
       <body className={`${plusJakarta.variable} ${publicSans.variable}`}>
         <Providers>
           <Navbar />
+          <div className="bg-secondary">
           {children}
+          </div>
+       
           {path === "/" ? <Footer /> : <Footertwo />}
           {/* <Footer /> */}
         </Providers>

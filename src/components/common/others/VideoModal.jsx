@@ -1,6 +1,6 @@
 "use client";
 import ModalVideo from "react-modal-video";
-// import "react-modal-video/scss/modal-video.scss";
+import "react-modal-video/scss/modal-video.scss";
 const VideoModal = ({ isOpen, setOpen }) => {
   return (
     <>

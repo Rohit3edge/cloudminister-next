@@ -30,26 +30,6 @@ const features = [
     delay: 700,
     url: "/akamai-cloud",
   },
-
-  // {
-  //   title: 'Microsoft 365',
-  //   description: 'Microsoft 365 offers Word, Excel, PowerPoint, Outlook, Publisher, and OneDrive, accessible online for viewing, editing, and sharing anytime.',
-  //   imgSrc: '/img/Office_365-Logo.png',
-  //   delay: 800,
-  // },
-
-  // {
-  //   title: 'Linode Support',
-  //   description: 'The Linode server maintenance plans that we offer are made focusing on data security. You need not fear the data getting lost at any point in time or any intrusion.',
-  //   imgSrc: '/img/linod.png',
-  //   delay: 500,
-  // },
-  // {
-  //   title: 'Google Workspace',
-  //   description: 'Google Workspace offers powerful tools for collaboration, communication, productivity, and secure cloud storage, streamlining workflows for teams and businesses.',
-  //   imgSrc: '/img/googlework.png',
-  //   delay: 600,
-  // },
 ];
 const DataCenterFeature = () => {
   const [isOpen, setOpen] = useState(false);

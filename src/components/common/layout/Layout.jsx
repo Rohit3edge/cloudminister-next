@@ -1,14 +1,14 @@
+"use client";
 import { useEffect, useRef } from "react";
-import { useRouter } from "next/router";
+import { usePathname } from "next/navigation"; // Use usePathname instead of useRouter
 import { debounce } from "../others/Scroller"; // Ensure debounce function exists
 import Navbar from "../nav/Navbar";
 import Footer from "../nav/Footer";
-// import Footertwo from "../nav/Footertwo";
+import Footertwo from "../nav/Footertwo";
 
 const Layout = ({ children }) => {
   const headerRef = useRef(null);
-  const router = useRouter();
-  const path = router.pathname; // Use Next.js router instead of useLocation()
+  const path = usePathname(); // Get current path
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,10 +31,9 @@ const Layout = ({ children }) => {
         <Navbar />
       </header>
       <main className={`${path === "/game-hosting" ? "bg-gray-900" : "bg-secondary"}`}>
-        {children} {/* Render page content */}
+        {children}
       </main>
-      {/* {path === "/" ? <Footer /> : <Footertwo />} */}
-      {/* <Footer /> */}
+      {path === "/" ? <Footer /> : <Footertwo />}
     </>
   );
 };

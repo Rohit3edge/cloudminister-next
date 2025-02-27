@@ -1,5 +1,6 @@
 "use client";
 import React, { useContext } from "react";
+import Image from "next/image";
 import { CurrencyContext } from "../currencyconversion/Currencyconversion";
 const SharedHostingHero = () => {
     const { convert, currency } = useContext(CurrencyContext);
@@ -57,14 +58,18 @@ const SharedHostingHero = () => {
               </div>
             </div>
             <div className="col-lg-5 col-xl-6 text-lg-end">
-              <img
+              <Image
                 src="/img/Shared web hosting.png"
-                alt="image"
+                alt="Shared Web Hosting"
                 className="img-fluid"
                 data-sal="fade"
+                width={548}
+                height={401} 
                 data-sal-duration="1500"
                 data-sal-delay="300"
                 data-sal-easing="ease-in-out-sine"
+                priority 
+                loading="eager"
               />
             </div>
           </div>

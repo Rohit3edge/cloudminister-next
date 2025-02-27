@@ -42,12 +42,12 @@ const PaymentOptions = () => {
             <div className="d-flex align-items-start mb-4">
               <div className="me-3">
                 <span className="avatar text-bg-secondary rounded-circle tx-20">
-                  <i className="bi bi-bank"></i>
+                <i className="la la-bank"></i>
                 </span>
               </div>
               <div className="flex-grow-1">
                 <h5 className="mb-1 tx-18">Bank Transfer</h5>
-                <p className="mb-0 mt-6">
+                <div className="mb-0 mt-6">
                   <p>Bank Name: ICICI Bank</p>
                   <p>Branch: Chitrakoot Marg, Jaipur</p>
                   <p>
@@ -57,7 +57,7 @@ const PaymentOptions = () => {
                   <p>Account Type: Current</p>
                   <p>IFSC code -ICIC0006772</p>
                   <p>AccountType: Current</p>
-                </p>
+                </div>
               </div>
             </div>
             {/* <div className="d-flex align-items-start mb-4">

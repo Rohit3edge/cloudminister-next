@@ -578,7 +578,7 @@ b) You agree that the Courts of Jaipur, Rajasthan (India) shall have the sole ju
 <br /> <br />
 Notwithstanding the above, the customer recognizes and accepts that every provider of a third-party good or service described in the contract definition as a third-party beneficiary is the designated third-party beneficiary of the requirements set out in this Agreement because they apply exclusively to its goods or services and has the right to explicitly implement the terms and conditions. <br /> <br />
 
-<h5>Appendix A:</h5>
+<span>Appendix A:</span>
 
 When you buy from the Company a third-party product or service, you agree to this Agreement AND the terms and conditions of the third-party product or service included in this Agreement for reference:
 <br /> <br />

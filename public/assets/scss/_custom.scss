@@ -1,0 +1,39 @@
+// Size
+.w_14 {
+    width: 14px !important;
+}
+.h_14 {
+    height: 14px !important;
+}
+// Size
+
+// Home 2
+.feedback-2__pagination {
+    position: static !important;
+}
+
+// Home -5
+.hero-7-slider__pagination {
+    transform: translateY(-50%) !important;
+}
+
+.pricing-nav-pills.game-plan::after{
+    z-index: 1;
+}
+// Home -5
+
+// home-7
+.feedback-3-slider__pagination{
+    position: static !important
+}
+
+// home-3
+.range-slider input {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.range-slider .range-slider__range,
+.range-slider .range-slider__thumb {
+    background: $primary !important;
+}
